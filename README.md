@@ -8,7 +8,17 @@ El presente repositorio describe los desafíos realizados en la materia Procesam
 Los desafíos realizados son:
 
 ## Desafío 1 
-Para el [Desafío 1](https://github.com/manoloacademia/CEIA_NLP/blob/main/Desafio_1_PabloSegovia.ipynb) es necesario resolver usando un modelo Naïve-Bayes sobre un vectorizador 
+El [Desafío 1](https://github.com/manoloacademia/CEIA_NLP/blob/main/Desafio_1_PabloSegovia.ipynb) soluciona un problema de similitud realizando una vectorización de texto y modelo de clasificación Naïve Bayes con el dataset [20 newsgroups](https://scikit-learn.org/0.19/datasets/twenty_newsgroups.html).
+Para poder resolverlo
+
+## Desafío 2
+El [Desafío 2](https://github.com/manoloacademia/CEIA_NLP/blob/main/Desafio_2_PabloSegovia.ipynb)
+
+## Desafío 3
+El [Desafío 3](https://github.com/manoloacademia/CEIA_NLP/blob/main/Desaf%C3%ADo%203_PabloSegovia.ipynb)
+
+## Desafío 4
+El [Desafío 4](https://github.com/manoloacademia/CEIA_NLP/blob/main/Desaf%C3%ADo_4_PabloSegovia.ipynb)
 
 ## Agregadecimientos
 
