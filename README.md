@@ -30,7 +30,9 @@ El presente repositorio describe los trabajos realizados sobre diferentes temas 
 - Podemos agregar que buscando tan solo 1 palabra en cada una de las partes del libros, se puede apreciar la similitud en varias palabras con el contexto de lo que realmente pasa en el libro. Así, la similitud semántica es aparente.
 - Al buscar el título del libro dentro del texto en cuestión, vemos que también hay mucha similitud con las palabras que son ajenas al text. Estas palabras forman parte del detalle de propaganda y descripción del Proyecto Gutenberg. De esta forma, se abre una opotunidad para chequear y "filtrar" este tipo de palabras del corpus.
 
-## Trabajo 3
+## Trabajo 3: modelos de lenguaje basados en arquitecturas recurrentes
+<img src="RNN.PNG" alt="drawing" width="800"/>
+
 - El [Trabajo 3](https://github.com/manoloacademia/CEIA_NLP/blob/main/Desaf%C3%ADo%203_PabloSegovia.ipynb) describe entrenar un modelo de lenguaje basado en arquitectura recurrente.
 - Se utiliza el corpus [A Million News Headlines](https://www.kaggle.com/datasets/therohk/million-headlines/data) que contiene la data de encabezados de noticias de la ABC Australiana en los últimos 19 años.
 - El objetivo principal sería lograr que durante el entrenamiento baje la [perplejidad](https://medium.com/nlplanet/two-minutes-nlp-perplexity-explained-with-simple-probabilities-6cdc46884584). Este concepto permite comparar modelos.
