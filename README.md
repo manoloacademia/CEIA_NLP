@@ -3,6 +3,13 @@
 
 # Resumen
 El presente repositorio describe los trabajos realizados sobre diferentes temas de Procesamiento del Lenguaje Natural (NLP).
+1- Similitud con vectorización de texto
+2- Generación de embeddings sobre Crímen y Castigo
+3- Modelos de lenguaje basados en arquitecturas recurrentes
+4- Chatbot Q&A con LSTM
+5-
+
+# Detalle de cada trabajo
 
 ## Trabajo 1: similitud con vectorización de texto
 <img src="tf-idf.JPG" alt="drawing" width="600"/>
