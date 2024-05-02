@@ -6,6 +6,7 @@ El presente repositorio describe los trabajos realizados sobre diferentes temas 
 
 ## Trabajo 1: similitud con vectorización de texto
 <img src="tf-idf.JPG" alt="drawing" width="400"/>
+
 - El [Trabajo 1](https://github.com/manoloacademia/CEIA_NLP/blob/main/Desafio_1_PabloSegovia.ipynb) soluciona un problema de similitud realizando una vectorización de texto y modelo de clasificación Naïve Bayes con el dataset [20 newsgroups](https://scikit-learn.org/0.19/datasets/twenty_newsgroups.html).
 - Para poder resolverlo, se utilizó un vectorizador del tipo [``TfidfVectorizer()``](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html) para hacer la extracción de features.
 - Se estudió la similaridad de los documentos utilizando la similaridad del coseno como medida de la similitud existente entre dos vectores en un espacio.
