@@ -1,4 +1,4 @@
-[](https://github.com/manoloacademia/CEIA_NLP/blob/main/logo_fiuba.png)
+![](https://github.com/manoloacademia/CEIA_NLP/blob/main/logo_fiuba.png)
 # Repositorio de la materia Procesamiento del Lenguaje Natural 
 # (CEIA-FIUBA)
 ## Autor: Pablo Segovia
