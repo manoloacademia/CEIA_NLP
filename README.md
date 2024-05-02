@@ -1,6 +1,5 @@
 ![](https://github.com/manoloacademia/CEIA_NLP/blob/main/logo_fiuba.png)
 # Repositorio de la materia Procesamiento del Lenguaje Natural 
-# (CEIA-FIUBA)
 ## Autor: Pablo Segovia
 - Cohorte: 12.
 - Año: 2024
@@ -48,6 +47,9 @@ Los desafíos realizados son:
 - Se entrena un modelo basado en el esquema encoder-decoder utilizando los datos generados.
 - Se genera inferencia del modelo y se obtiene un buen nivel de coherencia en las respuestas, aunque no se pueda generar una respuesta directa.
 - Para poder mejorar el modelo haría falta poder consumir todo el dataset y todo el vocabulario, pero la cantidad de RAM no es suficiente con los medios disponibles gratuitos y locales.
+
+## Desafío 5
+
 
 ## Agregadecimientos
 Agradezco al profesor de la materia [Rodrigo Cárdenas](https://github.com/rodo-qatar) por las explicaciones de los temas y por la paciencia en las clases ante mis interminables preguntas.
