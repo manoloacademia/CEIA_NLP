@@ -16,7 +16,9 @@ El presente repositorio describe los trabajos realizados sobre diferentes temas 
 - Se encontró que incluso bajando el número de features tenemos estas palabras pero en menor proporción.
 - Al final yendo con 10.000 palabras, si bien el resultado de las similares son palabras del inglés, no existe mucha similaridad contextual entre ellas.
 
-## Trabajo 2
+## Trabajo 2: generación de embeddings sobre Crímen y Castigo
+<img src="w2v_2D.PNG" alt="drawing" width="400"/>
+
 - El [Trabajo 2](https://github.com/manoloacademia/CEIA_NLP/blob/main/Desafio_2_PabloSegovia.ipynb) es utilizar documentos / corpus para crear embeddings de palabras basado en ese contexto.
 - Se utilizó el libro [Crimen y Castigo de Fiódor Dostoievski](https://www.gutenberg.org/ebooks/61851) para generar los embeddings, es decir, que los vectores tendrán la forma en función de como ese libro haya sido escrito.
 - Generamos nuestros propios vectores de embedding [Gensim](https://www.machinelearningplus.com/nlp/gensim-tutorial/).
