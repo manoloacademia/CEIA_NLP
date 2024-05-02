@@ -24,5 +24,7 @@ Se realiza un preprocesamiento necesario para obtener los diccionarios de índic
 Se utilizaron los embedding de [Glove](https://nlp.stanford.edu/projects/glove/)
 
 ## Agregadecimientos
+Agradezco al profesor de la materia [Rodrigo Cárdenas](https://github.com/rodo-qatar) por las explicaciones de los temas y por la paciencia en las clases ante mis interminables preguntas.
+Hago extensivo el saludo para todos los integrantes del [Posgrado en Inteligencia Artificial de la UBA](https://github.com/FIUBA-Posgrado-Inteligencia-Artificial) por la forma en que se esfuerzan en compartir estos conocimientos a gente de backgrounds tan dispares.
 
 ### Licencia: MIT
