@@ -1,4 +1,6 @@
-# Repositorio de la materia Procesamiento del Lenguaje Natural (CEIA-FIUBA).
+[](https://github.com/manoloacademia/CEIA_NLP/blob/main/logo_fiuba.png)
+# Repositorio de la materia Procesamiento del Lenguaje Natural 
+# (CEIA-FIUBA)
 ## Autor: Pablo Segovia
 - Cohorte: 12.
 - Año: 2024
