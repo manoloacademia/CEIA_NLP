@@ -18,10 +18,10 @@ El [Desafío 2](https://github.com/manoloacademia/CEIA_NLP/blob/main/Desafio_2_P
 El [Desafío 3](https://github.com/manoloacademia/CEIA_NLP/blob/main/Desaf%C3%ADo%203_PabloSegovia.ipynb)
 
 ## Desafío 4
-El [Desafío 4](https://github.com/manoloacademia/CEIA_NLP/blob/main/Desaf%C3%ADo_4_PabloSegovia.ipynb) describe realizar un Bot de Q&A usando un modelo LSTM.
-Se basa en un dataset del challenge ConvAI2 [Conversational Intelligence Challenge 2](https://convai.io/data/) y en él tratamos de responder las preguntas del usuario.
-Se realiza un preprocesamiento necesario para obtener los diccionarios de índices para los tokens, tanto entrada como salida.
-Se utilizaron los embedding de [Glove](https://nlp.stanford.edu/projects/glove/)
+- El [Desafío 4](https://github.com/manoloacademia/CEIA_NLP/blob/main/Desaf%C3%ADo_4_PabloSegovia.ipynb) describe realizar un Bot de Q&A usando un modelo LSTM.
+- Se basa en un dataset del challenge ConvAI2 [Conversational Intelligence Challenge 2](https://convai.io/data/) y en él tratamos de responder las preguntas del usuario.
+- Se realiza un preprocesamiento necesario para obtener los diccionarios de índices para los tokens, tanto entrada como salida.
+- Se utilizaron los embedding de [Glove](https://nlp.stanford.edu/projects/glove/) para transformar los tokens de entrada en vectores.
 
 ## Agregadecimientos
 Agradezco al profesor de la materia [Rodrigo Cárdenas](https://github.com/rodo-qatar) por las explicaciones de los temas y por la paciencia en las clases ante mis interminables preguntas.
