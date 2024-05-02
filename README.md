@@ -63,7 +63,12 @@ El presente repositorio describe los trabajos realizados sobre diferentes temas 
 
 
 ## Contacto
-Pueden escribirme directamente a mi dirección de mail: luispablosegovia@icloud.com
+Pueden escribirme directamente a mi dirección de mail: 📫 luispablosegovia@icloud.com 
+
+O tal vez directamente a mi LinkedIn [🔗](https://www.linkedin.com/in/luispablosegovia/)
+
+Y pasear por mis repositorios en Github [:octocat:](https://github.com/manoloacademia?tab=repositories)
+
 Saludos!
 
 ### Licencia: MIT
