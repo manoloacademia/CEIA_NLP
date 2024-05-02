@@ -4,10 +4,10 @@
 # Resumen
 El presente repositorio describe los trabajos realizados sobre diferentes temas de Procesamiento del Lenguaje Natural (NLP).
 
-1. Similitud con vectorización de texto
-2. Generación de embeddings sobre Crímen y Castigo
-3. Modelos de lenguaje basados en arquitecturas recurrentes
-4. Chatbot Q&A con LSTM
+1. Similitud con vectorización de texto [🧬](https://github.com/manoloacademia/CEIA_NLP/blob/main/Desafio_1_PabloSegovia.ipynb)
+2. Generación de embeddings sobre Crímen y Castigo [⛓️](https://github.com/manoloacademia/CEIA_NLP/blob/main/Desafio_2_PabloSegovia.ipynb)
+3. Modelos de lenguaje basados en arquitecturas recurrentes [🔁](https://github.com/manoloacademia/CEIA_NLP/blob/main/Desaf%C3%ADo%203_PabloSegovia.ipynb)
+4. Chatbot Q&A con LSTM [🤖](https://github.com/manoloacademia/CEIA_NLP/blob/main/Desaf%C3%ADo_4_PabloSegovia.ipynb)
 5.
 
 # Detalle de cada trabajo
