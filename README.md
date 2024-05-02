@@ -8,8 +8,14 @@ El presente repositorio describe los desafíos realizados en la materia Procesam
 Los desafíos realizados son:
 
 ## Desafío 1 
-El [Desafío 1](https://github.com/manoloacademia/CEIA_NLP/blob/main/Desafio_1_PabloSegovia.ipynb) soluciona un problema de similitud realizando una vectorización de texto y modelo de clasificación Naïve Bayes con el dataset [20 newsgroups](https://scikit-learn.org/0.19/datasets/twenty_newsgroups.html).
-Para poder resolverlo
+- El [Desafío 1](https://github.com/manoloacademia/CEIA_NLP/blob/main/Desafio_1_PabloSegovia.ipynb) soluciona un problema de similitud realizando una vectorización de texto y modelo de clasificación Naïve Bayes con el dataset [20 newsgroups](https://scikit-learn.org/0.19/datasets/twenty_newsgroups.html).
+- Para poder resolverlo, se utilizó un vectorizador del tipo [``TfidfVectorizer()``](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html) para hacer la extracción de features.
+- Se estudió la similaridad de los documentos utilizando la similaridad del coseno como medida de la similitud existente entre dos vectores en un espacio.
+- Se entrenaron modelos de clasificación Naïve Bayes Multinomial y ComplementNB para maximizar el desempeño de clasificación (f1-score macro).
+- Se estudió también transponer la matriz documento-término, para obtener una matriz término-documento que puede ser interpretada como una colección de vectorización de palabras.
+- Se encontró que con el número de features original (vocabulario 101631) muchas de las palabras dentro del diccionario son palabras que no forman parte del vocabulario Inglés persé, sino palabras que quedaron dentro del vocabulario del texto como "malos tokens".
+- Se encontró que incluso bajando el número de features tenemos estas palabras pero en menor proporción.
+- Al final yendo con 10.000 palabras, si bien el resultado de las similares son palabras del inglés, no existe mucha similaridad contextual entre ellas.
 
 ## Desafío 2
 - El [Desafío 2](https://github.com/manoloacademia/CEIA_NLP/blob/main/Desafio_2_PabloSegovia.ipynb) es utilizar documentos / corpus para crear embeddings de palabras basado en ese contexto.
