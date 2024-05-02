@@ -12,13 +12,22 @@ El [Desafío 1](https://github.com/manoloacademia/CEIA_NLP/blob/main/Desafio_1_P
 Para poder resolverlo
 
 ## Desafío 2
-El [Desafío 2](https://github.com/manoloacademia/CEIA_NLP/blob/main/Desafio_2_PabloSegovia.ipynb)
+- El [Desafío 2](https://github.com/manoloacademia/CEIA_NLP/blob/main/Desafio_2_PabloSegovia.ipynb) es utilizar documentos / corpus para crear embeddings de palabras basado en ese contexto.
+- Se utilizó el libro [Crimen y Castigo de Fiódor Dostoievski](https://www.gutenberg.org/ebooks/61851) para generar los embeddings, es decir, que los vectores tendrán la forma en función de como ese libro haya sido escrito.
+- Generamos nuestros propios vectores de embedding [Gensim](https://www.machinelearningplus.com/nlp/gensim-tutorial/).
+- Se entrenó un modelo Word2Vec utilizando la estructura modelo Skipgram.
+- Se trató de explicar los personajes de la novela buscando las palabras similares con embeddings más cercanos. Dejo la fuente de referencia de la novela en este [link](https://es.wikipedia.org/wiki/Crimen_y_castigo#Personajes).
+- Se trató también de explicar las partes del libro por las palabras similares de la idea general de cada parte.
+- Podemos decir que usando este método Word2Vec, los embeddings de los personajes tienen relación semántica con las palabras similares.
+- Al poder graficarlos, vemos que reduciendo dimensionalidad a 2D, tenemos la posibilidad de ubicar tanto nombre y apellido de un personaje como puntos cercanos del plano.
+- Podemos agregar que buscando tan solo 1 palabra en cada una de las partes del libros, se puede apreciar la similitud en varias palabras con el contexto de lo que realmente pasa en el libro. Así, la similitud semántica es aparente.
+- Al buscar el título del libro dentro del texto en cuestión, vemos que también hay mucha similitud con las palabras que son ajenas al text. Estas palabras forman parte del detalle de propaganda y descripción del Proyecto Gutenberg. De esta forma, se abre una opotunidad para chequear y "filtrar" este tipo de palabras del corpus.
 
 ## Desafío 3
 - El [Desafío 3](https://github.com/manoloacademia/CEIA_NLP/blob/main/Desaf%C3%ADo%203_PabloSegovia.ipynb) describe entrenar un modelo de lenguaje basado en arquitectura recurrente.
 - Se utiliza el corpus [A Million News Headlines](https://www.kaggle.com/datasets/therohk/million-headlines/data) que contiene la data de encabezados de noticias de la ABC Australiana en los últimos 19 años.
 - El objetivo principal sería lograr que durante el entrenamiento baje la [perplejidad](https://medium.com/nlplanet/two-minutes-nlp-perplexity-explained-with-simple-probabilities-6cdc46884584). Este concepto permite comparar modelos.
-- Se exploran diferentes modelos buscando este objetivo: LSTM, Conv1D y Bidirectional LSTM, Bidirectional LSTM stack, Conv1D stack, Bidirectional LSTM y GRU, Aumento de neuronas, Cambio de size del contexto máximo y Cambio del tamaño del corpus.
+- Se exploraron diferentes modelos buscando este objetivo: LSTM, Conv1D y Bidirectional LSTM, Bidirectional LSTM stack, Conv1D stack, Bidirectional LSTM y GRU, Aumento de neuronas, Cambio de size del contexto máximo y Cambio del tamaño del corpus.
 - Si bien nunca se pudo generar durante el entrenamiento que la perplejidad sea menor luego de cada época, se tiene un valor bajo al ir puliendo la arquitectura del modelo.
 - Se realiza una generación de secuencias random y usando beam search con buen resultado.
 
