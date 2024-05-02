@@ -40,8 +40,9 @@ El presente repositorio describe los trabajos realizados sobre diferentes temas 
 - Si bien nunca se pudo generar durante el entrenamiento que la perplejidad sea menor luego de cada época, se tiene un valor bajo al ir puliendo la arquitectura del modelo.
 - Se realiza una generación de secuencias random y usando beam search con buen resultado.
 
+## Trabajo 4: chatbot Q&A con LSTM
+<img src="bot.PNG" alt="drawing" width="800"/>
 
-## Trabajo 4
 - El [Trabajo 4](https://github.com/manoloacademia/CEIA_NLP/blob/main/Desaf%C3%ADo_4_PabloSegovia.ipynb) describe realizar un Bot de Q&A usando un modelo LSTM.
 - Se basa en un dataset del challenge ConvAI2 [Conversational Intelligence Challenge 2](https://convai.io/data/) y en él tratamos de responder las preguntas del usuario.
 - Se realiza un preprocesamiento necesario para obtener los diccionarios de índices para los tokens, tanto entrada como salida.
