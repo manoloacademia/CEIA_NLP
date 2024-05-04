@@ -8,7 +8,7 @@ El presente repositorio describe los trabajos realizados sobre diferentes temas 
 2. Generación de embeddings sobre Crímen y Castigo [⛓️](https://github.com/manoloacademia/CEIA_NLP/blob/main/Desafio_2_PabloSegovia.ipynb)
 3. Modelos de lenguaje basados en arquitecturas recurrentes [🔁](https://github.com/manoloacademia/CEIA_NLP/blob/main/Desaf%C3%ADo%203_PabloSegovia.ipynb)
 4. Chatbot Q&A con LSTM [🤖](https://github.com/manoloacademia/CEIA_NLP/blob/main/Desaf%C3%ADo_4_PabloSegovia.ipynb)
-5.
+5. Clasificador con BERT como encoder [⭐](https://github.com/manoloacademia/NLP/blob/main/Desafío_5_PabloSegovia.ipynb)
 
 # Detalle de cada trabajo
 
@@ -59,7 +59,11 @@ El presente repositorio describe los trabajos realizados sobre diferentes temas 
 - Se genera inferencia del modelo y se obtiene un buen nivel de coherencia en las respuestas, aunque no se pueda generar una respuesta directa.
 - Para poder mejorar el modelo haría falta poder consumir todo el dataset y todo el vocabulario, pero la cantidad de RAM no es suficiente con los medios disponibles gratuitos y locales.
 
-## Trabajo 5
+## Trabajo 5: clasificación con BERT como encoder
+<img src="bert.PNG" alt="drawing" width="800"/>
+
+- El [Trabajo 5](https://github.com/manoloacademia/NLP/blob/main/Desafío_5_PabloSegovia.ipynb) describe entrenar un modelo ed clasificación de [Sentiment Analysis](https://huggingface.co/blog/sentiment-analysis-python) para un dataset de reviews de apps utilizando el modelo [BERT](https://huggingface.co/docs/transformers/model_doc/bert) como encoder.
+- 
 
 
 ## Contacto
