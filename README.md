@@ -60,7 +60,7 @@ El presente repositorio describe los trabajos realizados sobre diferentes temas 
 - Para poder mejorar el modelo haría falta poder consumir todo el dataset y todo el vocabulario, pero la cantidad de RAM no es suficiente con los medios disponibles gratuitos y locales.
 
 ## Trabajo 5: clasificación con BERT como encoder
-<img src="bert.PNG" alt="drawing" width="800"/>
+<img src="bert.png" alt="drawing" width="800"/>
 
 - El [Trabajo 5](https://github.com/manoloacademia/NLP/blob/main/Desafío_5_PabloSegovia.ipynb) describe entrenar un modelo ed clasificación de [Sentiment Analysis](https://huggingface.co/blog/sentiment-analysis-python) para un dataset de reviews de apps utilizando el modelo [BERT](https://huggingface.co/docs/transformers/model_doc/bert) como encoder.
 - 
