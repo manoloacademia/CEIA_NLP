@@ -63,7 +63,10 @@ El presente repositorio describe los trabajos realizados sobre diferentes temas 
 <img src="bert.png" alt="drawing" width="800"/>
 
 - El [Trabajo 5](https://github.com/manoloacademia/NLP/blob/main/Desafío_5_PabloSegovia.ipynb) describe entrenar un modelo ed clasificación de [Sentiment Analysis](https://huggingface.co/blog/sentiment-analysis-python) para un dataset de reviews de apps utilizando el modelo [BERT](https://huggingface.co/docs/transformers/model_doc/bert) como encoder.
-- 
+- Se plantean 3 modelos usando una primera capa de BERT. El modelo 1 usa una capa clasificadora softmax de 3 clases, que se enmascaran de los 5 scores (originales) de las reviews. El modelo 2 es un modelo similar que el primero, pero se agrega una capa densa previa. El modelo 3, usa las clases orginales.
+- El mejor score lo presenta el primer modelo.
+- Con las 5 clases, que no están del todo balanceadas, se obtiene un score peor que los otros con las 3 clases balanceadas.
+- En una versión previa del código, se eligió 5 épocas pero al tener oportunidad de mejorar los scores se decidió hacer la comparación con 10.
 
 
 ## Contacto
