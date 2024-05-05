@@ -8,7 +8,7 @@ El presente repositorio describe los trabajos realizados sobre diferentes temas 
 2. Generación de embeddings sobre Crímen y Castigo [⛓️](https://github.com/manoloacademia/CEIA_NLP/blob/main/Desafio_2_PabloSegovia.ipynb)
 3. Modelos de lenguaje basados en arquitecturas recurrentes [🔁](https://github.com/manoloacademia/CEIA_NLP/blob/main/Desaf%C3%ADo%203_PabloSegovia.ipynb)
 4. Chatbot Q&A con LSTM [🤖](https://github.com/manoloacademia/CEIA_NLP/blob/main/Desaf%C3%ADo_4_PabloSegovia.ipynb)
-5. Clasificador con BERT como encoder [⭐](https://github.com/manoloacademia/NLP/blob/main/Desaf%C3%ADo_5_PabloSegovia.ipynb)
+5. Clasificador con BERT como encoder [⭐](https://github.com/manoloacademia/NLP/blob/main/Desafio_5_PabloSegovia.ipynb)
 
 # Detalle de cada trabajo
 
@@ -62,7 +62,7 @@ El presente repositorio describe los trabajos realizados sobre diferentes temas 
 ## Trabajo 5: clasificación con BERT como encoder
 <img src="bert.png" alt="drawing" width="800"/>
 
-- El [Trabajo 5](https://github.com/manoloacademia/NLP/blob/main/Desaf%C3%ADo_5_PabloSegovia.ipynb) describe entrenar un modelo ed clasificación de [Sentiment Analysis](https://huggingface.co/blog/sentiment-analysis-python) para un dataset de reviews de apps utilizando el modelo [BERT](https://huggingface.co/docs/transformers/model_doc/bert) como encoder.
+- El [Trabajo 5](https://github.com/manoloacademia/NLP/blob/main/Desafio_5_PabloSegovia.ipynb) describe entrenar un modelo ed clasificación de [Sentiment Analysis](https://huggingface.co/blog/sentiment-analysis-python) para un dataset de reviews de apps utilizando el modelo [BERT](https://huggingface.co/docs/transformers/model_doc/bert) como encoder.
 - Se plantean 3 modelos usando una primera capa de BERT. El modelo 1 usa una capa clasificadora softmax de 3 clases, que se enmascaran de los 5 scores (originales) de las reviews. El modelo 2 es un modelo similar que el primero, pero se agrega una capa densa previa. El modelo 3, usa las clases orginales.
 - El mejor score lo presenta el primer modelo.
 - Con las 5 clases, que no están del todo balanceadas, se obtiene un score peor que los otros con las 3 clases balanceadas.
